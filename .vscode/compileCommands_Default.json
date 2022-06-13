@@ -35,12 +35,22 @@
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\tiny bear\\Documents\\Unreal Projects\\MuliplayerTutorial\\Source\\MuliplayerTutorial\\MuliplayerTutorialGameMode.cpp",
+		"file": "C:\\Users\\tiny bear\\Documents\\Unreal Projects\\MuliplayerTutorial\\Source\\MuliplayerTutorial\\PlatformTrigger.cpp",
 		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\tiny bear\\Documents\\Unreal Projects\\MuliplayerTutorial\\.vscode\\compileCommands_Default\\MuliplayerTutorial.211.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\tiny bear\\Documents\\Unreal Projects\\MuliplayerTutorial\\Source\\MuliplayerTutorial\\MuliplayerTutorialGameMode.h",
+		"file": "C:\\Users\\tiny bear\\Documents\\Unreal Projects\\MuliplayerTutorial\\Source\\MuliplayerTutorial\\PlatformTrigger.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\tiny bear\\Documents\\Unreal Projects\\MuliplayerTutorial\\.vscode\\compileCommands_Default\\MuliplayerTutorial.211.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tiny bear\\Documents\\Unreal Projects\\MuliplayerTutorial\\Source\\MuliplayerTutorial\\PuzzlePlatformGameInstance.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\tiny bear\\Documents\\Unreal Projects\\MuliplayerTutorial\\.vscode\\compileCommands_Default\\MuliplayerTutorial.211.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tiny bear\\Documents\\Unreal Projects\\MuliplayerTutorial\\Source\\MuliplayerTutorial\\PuzzlePlatformGameInstance.h",
 		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\tiny bear\\Documents\\Unreal Projects\\MuliplayerTutorial\\.vscode\\compileCommands_Default\\MuliplayerTutorial.211.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
 	}

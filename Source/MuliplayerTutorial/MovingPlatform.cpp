@@ -24,23 +24,23 @@ void AMovingPlatform::Tick(float DeltaTime) {
     Super::Tick(DeltaTime);
     
     if(HasAuthority()){
-        FVector Location = GetActorLocation();
-        Location += MovementVectorNormalized * DeltaTime * Speed;
-
-        if (!invertMovement) {
-            if ((Location - StartingLocation).SquaredLength() > MovementVectorLength) {
+        if(ActiveTriggers) {
+            FVector Location = GetActorLocation();
+            Location += MovementVectorNormalized * DeltaTime * Speed;
+            const double movementMade = !invertMovement ? (Location - StartingLocation).SquaredLength() : (Location - TargetLocation).SquaredLength();
+            if (movementMade > MovementVectorLength) {
                 invertMovement = !invertMovement;
                 MovementVectorNormalized *= -1;
-                UE_LOG(LogTemp, Warning, TEXT("Invert 1"));
             }
-        } else {
-            if ((Location - TargetLocation).SquaredLength() > MovementVectorLength) {
-                invertMovement = !invertMovement;
-                MovementVectorNormalized *= -1;
-                UE_LOG(LogTemp, Warning, TEXT("Invert 2"));
-            }
+            SetActorLocation(Location);
         }
-        SetActorLocation(Location);
     }
     
+}
+
+void AMovingPlatform::AddActiveTrigger(){
+    ++ActiveTriggers;
+}
+void AMovingPlatform::RemoveActiveTrigger(){
+    if(ActiveTriggers) --ActiveTriggers;
 }

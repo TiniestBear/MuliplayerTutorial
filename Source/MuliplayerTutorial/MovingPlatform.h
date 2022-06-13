@@ -28,9 +28,15 @@ public:
 	UPROPERTY(EditAnywhere, Meta = (MakeEditWidget = true))
 	FVector TargetLocation;
 
+	void AddActiveTrigger();
+	void RemoveActiveTrigger();
+
 private:
 	bool invertMovement = false;
 	FVector StartingLocation;
 	double MovementVectorLength;
 	FVector MovementVectorNormalized;
+
+	UPROPERTY(EditAnywhere)
+	int ActiveTriggers = 0;
 };
